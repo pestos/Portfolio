@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Centrer horizontalement */
+    align-items: center;
+    /* Centrer verticalement */
+
+    /* Hauteur de la fenêtre */
+    background-color: #f0f0f0;
+    /* Couleur de fond pour contraster le contenu */
+}

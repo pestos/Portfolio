@@ -1,0 +1,66 @@
+// Pendulum.scss
+
+$logo-width: 220px;
+$logo-height: 120px;
+
+.pendulum {
+    width: $logo-width;
+    height: $logo-height;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        position: relative;
+        right: -300px;
+        top: 50px;
+    }
+}
+
+
+.pendulumRight {
+    width: $logo-width;
+    height: $logo-height;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        position: relative;
+        right: -850px;
+        top: 300px;
+    }
+}
+
+
+.pendulumLeft {
+    width: $logo-width;
+    height: $logo-height;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        position: relative;
+        right: -200px;
+        top: 600px;
+    }
+}
