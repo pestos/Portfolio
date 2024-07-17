@@ -4,12 +4,14 @@ import "../src/styles/index.scss";
 import pestos from "../src/images/pestos.png";
 import Header from "./layout/Header";
 import reactLogo from "../src/images/react.png";
-import html from "../src/images/html.png";
+
 import node from "../src/images/node.png";
 import Button from "../src/component/Button";
 
 import reportWebVitals from "./reportWebVitals";
 import Pendulum from "../src/component/cube/index";
+import ContentCard from "../src/component/ContentCard";
+import Navbar from "./component/Navbar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,9 +27,10 @@ root.render(
                     <span className="textPurple">Nice</span>
                 </h2>
                 <p class="secondary">
-                    entrepreneur à mon compte dans le domaine du développement
-                    web, je propose des services complets pour la création et
-                    l'optimisation de sites internet.
+                    Entrepreneur à mon compte dans le domaine du développement
+                    web, je propose des services complets
+                    <br />
+                    pour la création et l'optimisation de sites internet.
                 </p>
                 <Button />
             </div>
@@ -36,6 +39,18 @@ root.render(
                 <Pendulum logo={reactLogo} pendulum="pendulum" />
                 <Pendulum logo={node} pendulum="pendulumRight" />
             </div>
+        </section>
+        <section className="contentWork">
+            <h2>Mes services</h2>
+            <p>"Des solutions sur mesure pour chaque défi."</p>
+            <ContentCard />
+        </section>
+
+        <section className="myWork">
+            <h2>Mes Travaux</h2>
+            <p>"Vous trouvrez tous mes realisation."</p>
+
+            <Navbar />
         </section>
     </React.StrictMode>
 );

@@ -3,6 +3,9 @@ import "../Header/header.scss";
 function Header() {
     return (
         <div className="content">
+            <a class="primary" href="#homes">
+                Home
+            </a>
             <a class="primary" href="#services">
                 Mes Services
             </a>

@@ -1,6 +1,6 @@
 .contactMe {
     border-radius: 30px;
-    background-color: orange;
+    background-color: #f75023;
     border: none;
     color: white;
     width: 150px;
@@ -8,6 +8,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+}
+
+.contentButton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    i {
+        font-size: 20px;
+    }
 
 }
