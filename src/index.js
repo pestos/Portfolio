@@ -4,14 +4,14 @@ import "../src/styles/index.scss";
 import pestos from "../src/images/pestos.png";
 import Header from "./layout/Header";
 import reactLogo from "../src/images/react.png";
-
 import node from "../src/images/node.png";
 import Button from "../src/component/Button";
-
+import Gallery from "../src/component/Gallery";
 import reportWebVitals from "./reportWebVitals";
 import Pendulum from "../src/component/cube/index";
 import ContentCard from "../src/component/ContentCard";
 import Navbar from "./component/Navbar";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -50,7 +50,9 @@ root.render(
             <h2>Mes Travaux</h2>
             <p>"Vous trouvrez tous mes realisation."</p>
 
-            <Navbar />
+            <div className="gallery">
+                <Gallery />
+            </div>
         </section>
     </React.StrictMode>
 );

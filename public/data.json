@@ -1,0 +1,73 @@
+{
+    "projects": [
+      {
+        "title": "Booki",
+        "year": 2024,
+        "description": "Projet rélisé dans le cadre de ma formation openClassroom de developpeur front-end. Développement du front d'un site de location d'hébergement avec React creation de composants React et gestion des états",
+        "tags": ["HTML", "SASS", "Javascript"],
+        "images": [
+          { "src": "/images/booki.png", "title": "Image Booki" },
+          { "src": "/images/kasa/kasaModel.png", "title": "Image Kasa" },
+          { "src": "/images/kasa/Model2.png", "title": "Image MVG" }
+        ]
+      },
+      {
+        "title": "Projet 2023",
+        "year": 2023,
+        "description": "Création d'une application mobile pour faciliter les réservations de vacances.",
+        "tags": ["Mobile", "Réservations", "UX/UI Design"],
+        "images": [
+          { "src": "/images/SB.png", "title": "Image SB" },
+          { "src": "../../images/Nina.png", "title": "Image Nina" },
+          { "src": "../../images/Qwenta.png", "title": "Image Qwenta" }
+        ]
+      },
+      {
+        "title": "Projet Kasa",
+        "year": 2024,
+        "description": "Projet rélisé dans le cadre de ma formation openClassroom de developpeur front-end. Développement du front d'un site de location d'hébergement avec React creation de composants React et gestion des états",
+        "tags": ["Html", "Sass", "React"],
+        "images": [
+          { "src": "images/kasa.png", "title": "image pour illustrer Kasa" },
+          { "src": "/images/kasa/kasaModel.png", "title": "kasa full desktop" },
+          { "src": "/images/kasa/Model2.png", "title": "kasa Mobile" }
+        ]
+      },
+      {
+        "title": "Projet 2022",
+        "year": 2022,
+        "description": "Développement d'un tableau de bord analytique pour la gestion des propriétés.",
+        "tags": ["Analytique", "Tableau de bord", "Gestion de propriétés"],
+        "images": [
+          { "src": "../../images/mvg.png", "title": "Image Booki" },
+          { "src": "../../images/kasa.png", "title": "Image Kasa" },
+          { "src": "../../images/MVG.png", "title": "Image MVG" }
+        ]
+      }
+      ,
+      {
+        "title": "Projet 2022",
+        "year": 2022,
+        "description": "Développement d'un tableau de bord analytique pour la gestion des propriétés.",
+        "tags": ["Analytique", "Tableau de bord", "Gestion de propriétés"],
+        "images": [
+          { "src": "../../images/qwenta.png", "title": "Image Booki" },
+          { "src": "../../images/kasa.png", "title": "Image Kasa" },
+          { "src": "../../images/MVG.png", "title": "Image MVG" }
+        ]
+      }
+      ,
+      {
+        "title": "Projet 2022",
+        "year": 2022,
+        "description": "Développement d'un tableau de bord analytique pour la gestion des propriétés.",
+        "tags": ["Analytique", "Tableau de bord", "Gestion de propriétés"],
+        "images": [
+          { "src": "../../images/nina.png", "title": "Image Booki" },
+          { "src": "../../images/kasa.png", "title": "Image Kasa" },
+          { "src": "../../images/MVG.png", "title": "Image MVG" }
+        ]
+      }
+    ]
+  }
+  
