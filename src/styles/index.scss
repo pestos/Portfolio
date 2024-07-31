@@ -118,3 +118,53 @@ code {
     
     }
 }
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+  gap: 50px;
+
+  h2 {
+
+    display: flex;
+    margin-top: 100px;
+    color: #f75023;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    justify-content: center;
+
+  }
+
+  p {
+    display: flex;
+    font-size: 39px;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+}
+
+.contactPlacement {
+
+  display: flex;
+  gap: 100Px;
+
+
+  .contactThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 2px #f75023;
+    ;
+  }
+}

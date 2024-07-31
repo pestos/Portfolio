@@ -1,0 +1,70 @@
+.circle {
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2em;
+    width: 30%;
+    height: 88px;
+    opacity: 50%;
+
+    &.orange {
+        background-color: #fedfd7;
+        border: solid 2px orange;
+
+    }
+
+    &.green {
+        background-color: #ddf5e6;
+        border: solid 2px green;
+    }
+
+    &.purple {
+        background-color: #ece8fd;
+        border: solid 2px purple;
+    }
+
+}
+
+.fa-phone {
+    opacity: 100;
+    color: green;
+
+}
+
+.fa-envelope {
+    opacity: 100;
+    color: rgb(255, 111, 0);
+
+}
+
+.fa-location-dot {
+    opacity: 100;
+    color: purple;
+
+
+}
+
+.contactConteneur {
+    display: flex;
+    align-items: center;
+
+
+    gap: 50Px;
+
+    h2 {
+        display: flex;
+        justify-content: start;
+        font-size: 30px;
+        color: black;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 20px;
+        color: gray;
+    }
+}
