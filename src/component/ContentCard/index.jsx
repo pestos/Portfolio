@@ -33,40 +33,34 @@ const App = () => {
                     <div className="contentCard">
                         <h2>Web developpement</h2>
                         <p>
-                            Développement d'applications web front-end, site
+                            Développement d'applications web back-end, site
                             vitrines
                         </p>
                         <h2>Langages utilisés</h2>
                         <div className="contentTag">
-                            <Tag tag="HTML" />
-                            <Tag tag="CSS" />
-                            <Tag tag="SASS" />
-                        </div>
-                        <div className="contentTag">
-                            <Tag tag="Javascript" />
-                            <Tag tag="React" />
-                            <Tag tag="Wordpress" />
+                            <Tag tag="Node.Js" />
                         </div>
                     </div>
                 );
             case 3:
                 return (
                     <div className="contentCard">
-                        <h2>Web developpement</h2>
+                        <h2>Controle technique Automobile</h2>
                         <p>
-                            Développement d'applications web front-end, site
-                            vitrines
+                            Le contrôle technique consiste en une série de
+                            vérifications obligatoires visant à s'assurer que le
+                            véhicule est en bon état de fonctionnement
                         </p>
-                        <h2>Langages utilisés</h2>
+                        <h2>Véhicule concernée</h2>
                         <div className="contentTag">
-                            <Tag tag="HTML" />
-                            <Tag tag="CSS" />
-                            <Tag tag="SASS" />
+                            <Tag tag="Véhicule < 3.5" />
+                            <Tag tag="4x4" />
+                            <Tag tag="Camping Car" />
                         </div>
                         <div className="contentTag">
-                            <Tag tag="Javascript" />
-                            <Tag tag="React" />
-                            <Tag tag="Wordpress" />
+                            <Tag tag="Moto" />
+                            <Tag tag="125" />
+                            <Tag tag="50" />
                         </div>
                     </div>
                 );

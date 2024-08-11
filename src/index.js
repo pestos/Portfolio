@@ -49,7 +49,7 @@ root.render(
         </section>
 
         <section className="myWork" id="mes-travaux">
-            <h2>Mes Travaux</h2>
+            <h2>Mes Réalisation</h2>
             <p>"Vous trouvrez tous mes realisation."</p>
 
             <div className="gallery">
@@ -60,7 +60,7 @@ root.render(
         <section>
             <div className="contactForm" id="contact">
                 <h2>Me Contacter</h2>
-                <p>"demande d'information n'hésitez pas à me contacter"</p>
+                <p>"Demande d'information n'hésitez pas à me contacter"</p>
                 <div className="contactPlacement">
                     <div className="contactThree">
                         <BubulleContact

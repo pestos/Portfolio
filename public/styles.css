@@ -11,3 +11,14 @@ body {
     width: 100%;
     justify-content: center;
 }
+
+
+@media (max-width: 500px) {
+
+    #root {
+
+        margin: 0 auto;
+        width: 100%;
+
+    }
+}

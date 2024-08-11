@@ -66,6 +66,9 @@ function Gallery() {
                                 <span className="spanOne">
                                     <h2>Année:</h2>{" "}
                                     <p>{selectedProject.year}</p>
+                                    <a href={selectedProject.github}>
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
                                 </span>
                                 <span className="spanTwo">
                                     <h2>Mission:</h2>

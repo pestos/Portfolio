@@ -3,30 +3,33 @@
       {
         "title": "Booki",
         "year": 2024,
-        "description": "Projet rélisé dans le cadre de ma formation openClassroom de developpeur front-end. Développement du front d'un site de location d'hébergement avec React creation de composants React et gestion des états",
-        "tags": ["HTML", "SASS", "Javascript"],
+        "description": "L’entreprise souhaiter développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. j'ai était missionner pour faire la partie front end en HTML, CSS",
+        "tags": ["HTML", "CSS"],
+        "github": "https://github.com/pestos/FG_P2_creez-la-page-daccueil-dune-agence-de-voyage-avec-html-css-2_2024-01-17T112426.git",
         "images": [
           { "src": "/images/booki.png", "title": "Image Booki" },
-          { "src": "/images/kasa/kasaModel.png", "title": "Image Kasa" },
-          { "src": "/images/kasa/Model2.png", "title": "Image MVG" }
+          { "src": "/images/booki/desktop.png", "title": "Image Kasa" },
+          { "src": "/images/booki/Mobile.png", "title": "Image MVG" }
         ]
       },
       {
-        "title": "Projet 2023",
-        "year": 2023,
-        "description": "Création d'une application mobile pour faciliter les réservations de vacances.",
-        "tags": ["Mobile", "Réservations", "UX/UI Design"],
+        "title": "Sophie bluel",
+        "year": 2024,
+        "description": "Developper la partie frond-end d'un site dynamique pour une photographe ",
+        "tags": ["HTML", "CSS", "JS"],
+        "github":"https://github.com/pestos/opcr_project2.git",
         "images": [
           { "src": "/images/SB.png", "title": "Image SB" },
-          { "src": "../../images/Nina.png", "title": "Image Nina" },
-          { "src": "../../images/Qwenta.png", "title": "Image Qwenta" }
+          { "src": "/images/sophiebluel/desktop.png", "title": "Image Nina" },
+          { "src": "/images/sophiebluel/mobile.png", "title": "Image Qwenta" }
         ]
       },
       {
         "title": "Projet Kasa",
         "year": 2024,
         "description": "Projet rélisé dans le cadre de ma formation openClassroom de developpeur front-end. Développement du front d'un site de location d'hébergement avec React creation de composants React et gestion des états",
-        "tags": ["Html", "Sass", "React"],
+        "github":"https://github.com/pestos/pg6opc.git",
+        "tags": ["HTML", "SASS", "REACT"],
         "images": [
           { "src": "images/kasa.png", "title": "image pour illustrer Kasa" },
           { "src": "/images/kasa/kasaModel.png", "title": "kasa full desktop" },
@@ -34,38 +37,41 @@
         ]
       },
       {
-        "title": "Projet 2022",
-        "year": 2022,
-        "description": "Développement d'un tableau de bord analytique pour la gestion des propriétés.",
-        "tags": ["Analytique", "Tableau de bord", "Gestion de propriétés"],
+        "title": "Mon vieux grimoire ",
+        "year": 2024,
+        "description": "Le projet consiste à développer la partie back-end d'un site communautaire dédié aux passionnés de livres. Ce site permettra aux utilisateurs de créer des comptes, de noter des livres avec d'autres membres de la communauté.",
+        "tags": ["HTML", "CSS", "NODE JS"],
+        "github":"https://github.com/pestos/Projet7opc.git",
         "images": [
           { "src": "../../images/mvg.png", "title": "Image Booki" },
-          { "src": "../../images/kasa.png", "title": "Image Kasa" },
-          { "src": "../../images/MVG.png", "title": "Image MVG" }
+          { "src": "/images/mvg/desktop.png", "title": "Image Desktop" },
+          { "src": "/images/mvg/mobile.png", "title": "Image MVG" }
         ]
       }
       ,
       {
-        "title": "Projet 2022",
-        "year": 2022,
-        "description": "Développement d'un tableau de bord analytique pour la gestion des propriétés.",
-        "tags": ["Analytique", "Tableau de bord", "Gestion de propriétés"],
+        "title": "Qwenta",
+        "year": 2024,
+        "description": "La création du site web Qwenta nécessite une planification détaillée pour garantir un développement fluide et un résultat final répondant aux besoins des utilisateurs. Le site sera conçu pour offrir une expérience utilisateur optimale, avec des fonctionnalités adaptées à ses objectifs spécifiques.",
+        "tags": ["TRELLO", "ADOBE", "POWER POINT"],
+        "github":"https://github.com/pestos/Gueirard_frederic_4_04042024.git",
         "images": [
           { "src": "../../images/qwenta.png", "title": "Image Booki" },
-          { "src": "../../images/kasa.png", "title": "Image Kasa" },
-          { "src": "../../images/MVG.png", "title": "Image MVG" }
+          { "src": "/images/qwenta/desktop.png", "title": "Image Kasa" },
+          { "src": "/images/qwenta/mobile.png", "title": "Image MVG" }
         ]
       }
       ,
       {
-        "title": "Projet 2022",
-        "year": 2022,
-        "description": "Développement d'un tableau de bord analytique pour la gestion des propriétés.",
-        "tags": ["Analytique", "Tableau de bord", "Gestion de propriétés"],
+        "title": "Nina Carducci",
+        "year": 2024,
+        "description": "L'objectif de cette mission est de maximiser la visibilité du site web d'un photographe sur les moteurs de recherche tout en assurant un fonctionnement technique impeccable. Pour ce faire, plusieurs actions clés seront mises en œuvre Analyse des mots-clés, Optimisation du contenu , Balises Meta, Images optimisées, Structure du site",
+        "github":"https://github.com/pestos/NinaCarducci_PG5",
+        "tags": ["SEO", "JS", "HTML"],
         "images": [
           { "src": "../../images/nina.png", "title": "Image Booki" },
-          { "src": "../../images/kasa.png", "title": "Image Kasa" },
-          { "src": "../../images/MVG.png", "title": "Image MVG" }
+          { "src": "images/ninacarducci/desktop.png", "title": "Image Kasa" },
+          { "src": "/images/ninacarducci/mobile.png", "title": "Image MVG" }
         ]
       }
     ]
