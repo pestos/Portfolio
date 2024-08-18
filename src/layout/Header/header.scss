@@ -1,3 +1,6 @@
+.divMenu{
+    display: none;
+}
 .content {
     display: flex;
     width: 100%;
@@ -64,49 +67,38 @@
             z-index: 1;
         }
                 }
+
 }
 
-@media (max-width: 768px) {
+@media(max-width:500px){
+    .content{
+        display: none;
+    }
 
-    /* Media query pour les écrans de taille moyenne et petite */
-    .content {
-        justify-content: center;
-        padding: 0 20px;
-        /* Ajustement du padding pour les petits écrans */
-
-        a.primary {
-            font-size: 18px;
-            /* Légère réduction de la taille de la police */
-            padding-right: 1.5%;
-            /* Ajustement du padding */
+    .divMenu{
+        background-color: white;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        margin-bottom: 40px;
+        button{
+            width: 40px;
+            height: 50px;
+            background-color: white ;
+            border: none;
+            font-size: 30px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 20px;
             
 
-                                .secondary {
-                                    font-size: 18px;
-                                    /* Réduction de la taille de la police */
-                                    padding: 8px 16px;
-                                    /* Réduction du padding pour mieux s'adapter aux petits écrans */
-                                }
-                                }
-                                }
-        @media (max-width: 500px) {
-    /* Media query pour les très petits écrans */
-            .content {
-                height: 80px;
-                    /* Réduction de la hauteur pour mieux s'adapter aux petits écrans */
-                
-                    a.primary {
-                    font-size: 15px;
-                        /* Réduction supplémentaire de la taille de la police */
-                        padding-right: 1%;
-                    /* Réduction du padding */
         }
+    }
 
-        .secondary {
-            font-size: 15px;
-                /* Réduction supplémentaire de la taille de la police */
-                    padding: 6px 12px;
-                    /* Réduction du padding */
-        
-                }
-            }}}
+}
+    
