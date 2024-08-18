@@ -19,7 +19,7 @@
         "tags": ["HTML", "CSS", "JS"],
         "github":"https://github.com/pestos/opcr_project2.git",
         "images": [
-          { "src": "/images/SB.png", "title": "Image SB" },
+          { "src": "/images/sb.png", "title": "Image SB" },
           { "src": "/images/sophiebluel/desktop.png", "title": "Image Nina" },
           { "src": "/images/sophiebluel/mobile.png", "title": "Image Qwenta" }
         ]
