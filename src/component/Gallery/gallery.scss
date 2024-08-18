@@ -116,19 +116,21 @@
         justify-content: center;
         width: 100%;
         img{
-            width: 100%;
+            width: 50%;
             margin-top: 50px;
         }
     }
     .imgInformation{
+        display: flex;
+        flex-direction: column;
         h2{
             font-size: 30px;
         }
     }
-    
-    .overlay{
-        top: -800px;
+    .close{
+        right: 30px;
     }
+  
 
 
 }
