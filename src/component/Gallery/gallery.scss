@@ -109,4 +109,26 @@
         flex-direction: column;
         gap:10px;
     }
+
+    .popup{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        img{
+            width: 100%;
+            margin-top: 50px;
+        }
+    }
+    .imgInformation{
+        h2{
+            font-size: 30px;
+        }
+    }
+    
+    .overlay{
+        top: -800px;
+    }
+
+
 }

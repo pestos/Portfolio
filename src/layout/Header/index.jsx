@@ -4,9 +4,11 @@ import image from "../../images/pestos.png";
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isSquareVisible, setIsSquareVisible] = useState(false);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
+        setIsSquareVisible(!isSquareVisible); // Toggle square visibility
     };
 
     return (
@@ -30,7 +32,7 @@ function Header() {
                 <button className="menu-toggle" onClick={toggleMenu}>
                     &#9776;
                 </button>
-                <img src={image}></img>
+                <img src={image} alt="Menu"></img>
             </div>
 
             {isMenuOpen && (
@@ -52,15 +54,14 @@ function Header() {
                     >
                         Mes Travaux
                     </a>
-                    <a
-                        className="secondary"
-                        href="#contact"
-                        onClick={toggleMenu}
-                    >
+                    <a className="primary" href="#contact" onClick={toggleMenu}>
                         Contact
                     </a>
                 </nav>
             )}
+
+            {/* Carré qui apparaît */}
+            {isSquareVisible && <div className="square"></div>}
         </header>
     );
 }

@@ -50,7 +50,7 @@ root.render(
 
         <section className="myWork" id="mes-travaux">
             <h2>Mes Réalisation</h2>
-            <p>"Vous trouvrez tous mes realisation."</p>
+            <p>"Vous trouverez toutes mes realisation."</p>
 
             <div className="gallery">
                 <Gallery />
