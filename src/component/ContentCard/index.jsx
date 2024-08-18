@@ -42,28 +42,7 @@ const App = () => {
                         </div>
                     </div>
                 );
-            case 3:
-                return (
-                    <div className="contentCard">
-                        <h2>Controle technique Automobile</h2>
-                        <p>
-                            Le contrôle technique consiste en une série de
-                            vérifications obligatoires visant à s'assurer que le
-                            véhicule est en bon état de fonctionnement
-                        </p>
-                        <h2>Véhicule concernée</h2>
-                        <div className="contentTag">
-                            <Tag tag="Véhicule < 3.5" />
-                            <Tag tag="4x4" />
-                            <Tag tag="Camping Car" />
-                        </div>
-                        <div className="contentTag">
-                            <Tag tag="Moto" />
-                            <Tag tag="125" />
-                            <Tag tag="50" />
-                        </div>
-                    </div>
-                );
+
             default:
                 return (
                     <div className="Card">
@@ -89,13 +68,6 @@ const App = () => {
                     onClick={() => setActiveTab(2)}
                 >
                     <i className="fa-solid fa-server"></i>
-                </div>
-                <div
-                    className={`tab-button ${activeTab === 3 ? "active" : ""}`}
-                    onClick={() => setActiveTab(3)}
-                >
-                    {" "}
-                    <i className="fa-solid fa-car"></i>
                 </div>
             </div>
             <div className="tab-content"></div>

@@ -10,7 +10,7 @@ import Gallery from "../src/component/Gallery";
 import reportWebVitals from "./reportWebVitals";
 import Pendulum from "../src/component/cube/index";
 import ContentCard from "../src/component/ContentCard";
-import Navbar from "./component/Navbar";
+
 import ContactForm from "./component/Contact";
 import BubulleContact from "./component/BubulleContact";
 import Footer from "./layout/Footer/index";
