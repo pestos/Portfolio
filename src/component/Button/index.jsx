@@ -2,7 +2,9 @@ import "../Button/button.scss";
 function Button() {
     return (
         <div className="contentButton">
-            <a className="contactMe">Me contacter</a>
+            <a className="contactMe" href="#contact">
+                Me contacter
+            </a>
             <a href="https://www.linkedin.com/in/frederic-gueirard-39665272/">
                 <i class="fa-brands fa-linkedin"></i>
             </a>

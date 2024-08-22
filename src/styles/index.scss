@@ -261,12 +261,14 @@ code {
   .contactPlacement{
     flex-direction: column;
     align-items: center;
+    
     .contactThree{
       width: 80%;
     }
     form{
       display: flex;
       align-items: center;
+      width: 90%;
       div{
         width: 100%;
       }
