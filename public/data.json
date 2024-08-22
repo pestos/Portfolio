@@ -75,7 +75,7 @@
         "github":"https://github.com/pestos/NinaCarducci_PG5",
         "tags": ["SEO", "JS", "HTML"],
         "images": [
-          { "src": "/images/nina.png", "title": "Image Nina" },
+          { "src": "/images/ninacarducci.png", "title": "Image Nina" },
           { "src": "images/ninacarducci/desktop.png", "title": "Image Kasa" },
           { "src": "/images/ninacarducci/mobile.png", "title": "Image MVG" }
         ]
