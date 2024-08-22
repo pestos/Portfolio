@@ -32,6 +32,8 @@
     position: relative;
     text-align: center;
     max-width: 1300px;
+    overflow-y: auto;
+    max-height: 600px;
 
     img {
         width: 30%;
@@ -78,6 +80,7 @@
 
     }
 }
+
 
 .contentTag {
     margin-top: 20px;

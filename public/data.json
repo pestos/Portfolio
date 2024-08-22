@@ -4,6 +4,7 @@
         "title": "Booki",
         "year": 2024,
         "description": "L’entreprise souhaiter développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. j'ai était missionner pour faire la partie front end en HTML, CSS",
+        "probleme":"J'ai rencontré des difficultés avec le design responsive de mon site web, principalement à cause d'une mauvaise maîtrise des propriétés CSS. Au lieu d'utiliser des unités flexibles comme les pourcentages (%), em, ou rem, j'ai souvent utilisé des pixels (px), ce qui a bloqué plusieurs éléments (div) et créé des problèmes d'adaptabilité sur différents appareils. Cela a conduit à des complications importantes lors de l'affichage du site sur des écrans de tailles variées, nuisant à l'expérience utilisateur.",
         "tags": ["HTML", "CSS"],
         "github": "https://github.com/pestos/FG_P2_creez-la-page-daccueil-dune-agence-de-voyage-avec-html-css-2_2024-01-17T112426.git",
         "images": [
@@ -16,6 +17,7 @@
         "title": "Sophie bluel",
         "year": 2024,
         "description": "Developper la partie frond-end d'un site dynamique pour une photographe ",
+        "probleme":"J'ai rencontré des difficultés dans la gestion des appels API, principalement en raison d'une mauvaise compréhension de leur fonctionnement. Des erreurs telles qu'une gestion inappropriée des réponses, une absence de traitement des erreurs, ou encore des appels redondants ont entraîné des ralentissements, des incohérences dans les données affichées, et même des échecs de communication avec le serveur. Ces problèmes ont compromis la fiabilité de l'application, rendant l'expérience utilisateur moins fluide et les fonctionnalités moins robustes.",
         "tags": ["HTML", "CSS", "JS"],
         "github":"https://github.com/pestos/opcr_project2.git",
         "images": [
@@ -28,6 +30,7 @@
         "title": "Projet Kasa",
         "year": 2024,
         "description": "Projet rélisé dans le cadre de ma formation openClassroom de developpeur front-end. Développement du front d'un site de location d'hébergement avec React creation de composants React et gestion des états",
+        "probleme":"J'ai rencontré des difficultés dans la compréhension et la création de composants, ce qui a affecté la structure et la réutilisabilité de mon code. Une mauvaise gestion de l'état, des props mal passées, ainsi qu'une organisation inefficace des composants ont conduit à un code peu maintenable et difficile à déboguer. Ces lacunes ont aussi entravé la modularité du projet, rendant la collaboration et les mises à jour plus compliquées. En conséquence, l'application est devenue plus complexe à gérer et moins performante.",
         "github":"https://github.com/pestos/pg6opc.git",
         "tags": ["HTML", "SASS", "REACT"],
         "images": [
@@ -40,6 +43,7 @@
         "title": "Mon vieux grimoire ",
         "year": 2024,
         "description": "Le projet consiste à développer la partie back-end d'un site communautaire dédié aux passionnés de livres. Ce site permettra aux utilisateurs de créer des comptes, de noter des livres avec d'autres membres de la communauté.",
+        "probleme":"J'ai rencontré des difficultés dans la gestion de la sécurité des utilisateurs sur le back-end, en particulier en ce qui concerne la protection des données sensibles et la prévention des vulnérabilités courantes. Des pratiques comme le stockage inadéquat des mots de passe, l'absence de chiffrement pour les informations sensibles, et une validation insuffisante des entrées utilisateur ont exposé le système à des risques de piratage et de fuite de données. Ces lacunes ont mis en péril la confidentialité et la sécurité des utilisateurs, compromettant la fiabilité globale de l'application.",
         "tags": ["HTML", "CSS", "NODE JS"],
         "github":"https://github.com/pestos/Projet7opc.git",
         "images": [
@@ -53,6 +57,7 @@
         "title": "Qwenta",
         "year": 2024,
         "description": "La création du site web Qwenta nécessite une planification détaillée pour garantir un développement fluide et un résultat final répondant aux besoins des utilisateurs. Le site sera conçu pour offrir une expérience utilisateur optimale, avec des fonctionnalités adaptées à ses objectifs spécifiques.",
+        "probleme":"J'ai rencontré des difficultés dans la gestion de projet, en particulier concernant la priorisation des tâches et leur quantification. Un manque de clarté dans l'évaluation de l'importance et de l'urgence des tâches a conduit à une mauvaise allocation des ressources et à un déséquilibre dans les efforts de l'équipe",
         "tags": ["TRELLO", "ADOBE", "POWER POINT"],
         "github":"https://github.com/pestos/Gueirard_frederic_4_04042024.git",
         "images": [
@@ -66,10 +71,11 @@
         "title": "Nina Carducci",
         "year": 2024,
         "description": "L'objectif de cette mission est de maximiser la visibilité du site web d'un photographe sur les moteurs de recherche tout en assurant un fonctionnement technique impeccable. Pour ce faire, plusieurs actions clés seront mises en œuvre Analyse des mots-clés, Optimisation du contenu , Balises Meta, Images optimisées, Structure du site",
+        "probleme":"J'ai rencontré des difficultés dans l'allègement du poids du site web, ce qui a eu un impact négatif sur les performances et le SEO. Une mauvaise optimisation des images, un code non minifié, et l'inclusion de scripts et de styles inutiles ont considérablement alourdi le site, ralentissant le temps de chargement des pages. Cette lenteur a non seulement affecté l'expérience utilisateur, mais aussi pénalisé le référencement naturel (SEO), car les moteurs de recherche privilégient les sites rapides. Ces problèmes ont rendu le site moins compétitif et ont diminué sa visibilité en ligne.",
         "github":"https://github.com/pestos/NinaCarducci_PG5",
         "tags": ["SEO", "JS", "HTML"],
         "images": [
-          { "src": "../../images/nina.png", "title": "Image Booki" },
+          { "src": "../../images/nina.png", "title": "Image Nina" },
           { "src": "images/ninacarducci/desktop.png", "title": "Image Kasa" },
           { "src": "/images/ninacarducci/mobile.png", "title": "Image MVG" }
         ]

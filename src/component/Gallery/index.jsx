@@ -73,6 +73,8 @@ function Gallery() {
                                 <span className="spanTwo">
                                     <h2>Mission:</h2>
                                     <p>{selectedProject.description}</p>
+                                    <h2>Difficultés Rencontrées:</h2>
+                                    <p>{selectedProject.probleme}</p>
                                 </span>{" "}
                                 <h2>Technologie utilisés</h2>
                                 <div className="contentTag">
