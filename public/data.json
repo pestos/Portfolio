@@ -10,7 +10,7 @@
         "images": [
           { "src": "/images/booki.png", "title": "Image Booki" },
           { "src": "/images/booki/desktop.png", "title": "Image Kasa" },
-          { "src": "/images/booki/Mobile.png", "title": "Image MVG" }
+          { "src": "/images/booki/mobile.png", "title": "Image mobile" }
         ]
       },
       {
@@ -75,7 +75,7 @@
         "github":"https://github.com/pestos/NinaCarducci_PG5",
         "tags": ["SEO", "JS", "HTML"],
         "images": [
-          { "src": "../../images/nina.png", "title": "Image Nina" },
+          { "src": "/images/nina.png", "title": "Image Nina" },
           { "src": "images/ninacarducci/desktop.png", "title": "Image Kasa" },
           { "src": "/images/ninacarducci/mobile.png", "title": "Image MVG" }
         ]
