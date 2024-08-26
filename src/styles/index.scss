@@ -181,6 +181,7 @@ code {
   }
 
   .contentLeft {
+    padding: 5%;
     p.primary {
       font-size: 30px;
     }
@@ -251,6 +252,7 @@ code {
     }
     p{
       font-size: 17px;
+      padding: 5%;
     }
   }
   .contactThree{
@@ -273,6 +275,8 @@ code {
         width: 100%;
       }
       button{
+        height: 50px;
+        width: 150px;
         display: flex;
         justify-content: center;
       }

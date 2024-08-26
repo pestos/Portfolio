@@ -70,7 +70,6 @@ const App = () => {
                     <i className="fa-solid fa-server"></i>
                 </div>
             </div>
-            <div className="tab-content"></div>
         </div>
     );
 };

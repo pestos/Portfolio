@@ -30,9 +30,8 @@ root.render(
                 </h2>
                 <p class="secondary">
                     Entrepreneur à mon compte dans le domaine du développement
-                    web, je propose des services complets
-                    <br />
-                    pour la création et l'optimisation de sites internet.
+                    web, je propose des services complets pour la création et
+                    l'optimisation de sites internet.
                 </p>
                 <Button />
             </div>
@@ -49,8 +48,8 @@ root.render(
         </section>
 
         <section className="myWork" id="mes-travaux">
-            <h2>Mes Réalisation</h2>
-            <p>"Vous trouverez toutes mes realisation."</p>
+            <h2>Mes Réalisations</h2>
+            <p>"Vous trouverez toutes mes realisations."</p>
 
             <div className="gallery">
                 <Gallery />
